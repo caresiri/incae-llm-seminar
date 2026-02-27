@@ -1,0 +1,5 @@
+sentences,predicted_labels,predicted_scores,predicted_label_name
+Inclusion and equity improve team performance.,0,0.5320742130279541,not_dei
+Private equity firms raised significant capital this quarter.,0,0.5556418895721436,not_dei
+Our organization implemented a new DEI mentorship program.,0,0.5329900979995728,not_dei
+The startup accepted debt financing instead of issuing equity.,0,0.544948935508728,not_dei

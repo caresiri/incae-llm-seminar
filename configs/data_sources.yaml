@@ -1,0 +1,17 @@
+# Example manifest for externally hosted assets.
+# Fill url and optional sha256, then run:
+# python scripts/fetch_data.py --manifest configs/data_sources.yaml
+sources:
+  - name: session1-model
+    url: https://example.com/path/to/model_1.zip
+    target: artifacts/local_models/model_1.zip
+    sha256: ""
+  - name: session2-model
+    url: https://example.com/path/to/model_2.zip
+    target: artifacts/local_models/model_2.zip
+    sha256: ""
+  - name: training-data
+    url: https://example.com/path/to/datasets.zip
+    target: data/raw/datasets.zip
+    sha256: ""
+

@@ -1,0 +1,12 @@
+name: session2_sentiment_classifier
+model_name_or_path: artifacts/local_models/model_2
+tokenizer_name_or_path: distilbert-base-uncased
+input_file: data/sample/session2_input.csv
+output_file: data/sample/NewSentencse_Classified_Sentiment.csv
+text_column: sentences
+max_length: 128
+batch_size: 16
+label_map:
+  0: negative
+  1: positive
+  2: neutral

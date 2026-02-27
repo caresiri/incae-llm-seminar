@@ -1,0 +1,5 @@
+sentences,predicted_labels,predicted_scores,predicted_label_name
+I am excited about the results.,1,0.4570407271385193,positive
+This process is frustrating and slow.,2,0.46643486618995667,neutral
+The meeting happened as scheduled.,1,0.4458220899105072,positive
+The new policy is fantastic.,0,0.39025524258613586,negative

@@ -1,0 +1,11 @@
+name: session1_dei_classifier
+model_name_or_path: artifacts/local_models/model_1
+tokenizer_name_or_path: distilbert-base-uncased
+input_file: data/sample/session1_input.csv
+output_file: data/sample/NewSentence_Classified_DEI.csv
+text_column: sentences
+max_length: 128
+batch_size: 16
+label_map:
+  0: not_dei
+  1: dei
