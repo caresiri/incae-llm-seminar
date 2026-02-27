@@ -1,6 +1,6 @@
 # INCAE LLM Seminar
 
-This repository packages Session 1 and Session 2 instructional materials into a reusable project so anyone can clone, install, and run the classifiers.
+This repository packages Session 1 and Session 2 instructional materials.
 
 ## Project Layout
 
@@ -51,9 +51,7 @@ Outputs are written to `data/sample/` by default.
 
 ## Data and Models
 
-- `data/raw/` and `artifacts/local_models/` are intentionally gitignored.
 - Use `scripts/fetch_data.py` with `configs/data_sources.yaml` if you host data/model files externally.
-- Keep only lightweight examples in `data/sample/`.
 
 ## CI
 
