@@ -15,10 +15,8 @@ Thumbs.db
 
 # Large/private artifacts should stay outside Git.
 artifacts/local_models/**
-data/raw/**
 
 # Keep lightweight examples.
-!data/raw/README.md
 !data/sample/**
 !data/sample/.gitkeep
 
